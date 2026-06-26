@@ -13,55 +13,114 @@
 
     <!-- Header -->
     <header>
-        <h1>Student Notes Hub</h1>
 
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Notes</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+    <h1>Student Notes Hub</h1>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search Subjects..."
+    >
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Notes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+</header>
 
     <!-- Hero Section -->
-    <section>
-        <img src="myphoto.jpeg" alt="Anshul Rajput" class="profile-pic">
-        <h2>ANSHUL RAJPUT</h2>
-        <h1>Welcome To Students Notes Hub</h1>
-        <p>Download Notes and Study Materials Easily.</p>
+    <section class="hero">
 
-        <button id="startBtn">Get Started</button>
-    </section>
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+   
+
+<div class="cloud-layer">
+   ...
+</div>
+
+    <img src="myphoto.jpeg" alt="Anshul Rajput" class="profile-pic">
+
+    <h2>ANSHUL RAJPUT</h2>
+    <h1 id="typing-text"></h1>
+
+    <p>Download Notes and Study Materials Easily.</p><br><br>
+
+    <button id="startBtn">Get Started</button> 
+    <button id="darkModeBtn">
+🌙 Dark Mode
+</button>
+    
+
+
+
+</section>
 
     <!-- Notes Section -->
-    <section id="notes">
-        <h2>Subjects</h2>
+    
+                        <section id="notes">
 
-        <div class="cards">
+    <h2>📚 Available Subjects</h2>
 
-            <!-- Physics Card -->
-            <div>
-                <h3>Physics</h3>
-                <p>Study notes for Physics.</p>
-                <button id="physicsBtn">View Notes</button>
-            </div>
+    <div class="subjects-container">
 
-            <!-- Chemistry Card -->
-            <div>
-                <h3>Chemistry</h3>
-                <p>Study notes for Chemistry.</p>
-                <button id="chemistryBtn">View Notes</button>
-            </div>
+        <a href="phy.html" class="subject-card">
+            📘
+            <h3>Physics</h3>
+        </a>
 
-            <!-- Mathematics Card -->
-            <div>
-                <h3>Mathematics</h3>
-                <p>Study notes for Mathematics.</p>
-                <button id="mathBtn">View Notes</button>
-            </div>
+        <a href="chemistry.html" class="subject-card">
+            🧪
+            <h3>Chemistry</h3>
+        </a>
 
-        </div>
-    </section>
+        <a href="mat.html" class="subject-card">
+            📐
+            <h3>Mathematics</h3>
+        </a>
+
+        <a href="mech.html" class="subject-card">
+            ⚙️
+            <h3>Mechanical</h3>
+        </a>
+
+        <a href="elec.html" class="subject-card">
+            📱
+            <h3>Electronics</h3>
+        </a>
+
+        <a href="pps.html" class="subject-card">
+            💻
+            <h3>PPS</h3>
+        </a>
+
+        <a href="sof.html" class="subject-card">
+            🗣️
+            <h3>Soft Skills</h3>
+        </a>
+
+    </div>
+
+</section>
+<section class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Hello! I am <strong>Anshul Rajput</strong>.
+        I created this Students Notes Hub to help engineering students
+        access notes and study materials easily.
+    </p>
+
+    <a href="https://www.instagram.com/anshulrajpu.t/?hl=en" target="_blank">
+         Instagram 📸
+    </a>
+
+</section>
 
     <!-- About Section -->
     <section>
@@ -94,6 +153,31 @@
     </section>
 
     <script src="script.js"></script>
+<button id="topBtn">⬆</button>
+<footer>
 
+    <h3>Students Notes Hub</h3>
+
+    <p>
+        Helping Engineering Students Access Notes Easily.
+    </p>
+
+    <a href="https://www.instagram.com/anshulrajpu.t/?hl=en" target="_blank">
+        📸 Instagram
+    </a>
+
+    <p class="copyright">
+        © 2026 Students Notes Hub | Created By Anshul Rajput
+    </p>
+
+</footer>
+<div class="bottom-nav">
+
+    <a href="#home">🏠 Home</a>
+    <a href="#notes">📚 Notes</a>
+    <a href="#search">🔍 Search</a>
+    <a href="#contact">📞 Contact</a>
+
+</div>
 </body>
 </html>
